@@ -13,7 +13,7 @@ spec:
         app: springboot-app
     spec:
       containers:
-        - name: springbootapp
+        - name: springboot-app
           image: venumadhav777/springboot-app-extapi:latest
           imagePullPolicy: Always
           ports:
